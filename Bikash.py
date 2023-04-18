@@ -11,10 +11,10 @@ bgt=Client(
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"],
     bot_token = os.environ["BOT_TOKEN"]
-    support_chat = os.environ["SUPPORT_CHAT"]
-    updates_chnl = os.environ["UPDATES_CHNL"]
-    owner_username = os.environ["OWNER_USERNAME"]
-    bot_username = os.environ["BOT_USERNAME"]
+    support_chat = os.environ["SUPPORT_CHAT", "Bgt_Chat"]
+    updates_chnl = os.environ["UPDATES_CHNL", "BikashGadgetsTech"]
+    owner_username = os.environ["OWNER_USERNAME", "BikashHalder"]
+    bot_username = os.environ["BOT_USERNAME", "BgtConvertBot"]
 )
 
 @bgt.on_message(filters.command('start') & filters.private)
@@ -90,7 +90,7 @@ async def get_link_private(client, message):
     except Exception:
         pass        
 
-@bgt.on_message(filters.command('tl'))
+@bgt.on_message(filters.command('tl', 'bgt'))
 async def get_link_group(client, message):
     try:
         text = await message.reply("♡ 𝐁𝐠𝐭 𝐁𝐨𝐭 𝐍𝐨𝐰 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐌𝐞𝐝𝐢𝐚....")
