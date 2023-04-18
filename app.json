@@ -44,7 +44,7 @@
         "required": true
         },
         "BOT_TOKEN": {
-            "description": "Get from Telegram's @BotFather,
+            "description": "Get from Telegram's @BotFather",
             "value": "BGT_CHAT",
         "required": true
         },
