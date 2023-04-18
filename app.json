@@ -1,7 +1,7 @@
 {
-    "name": "MediaToTelegraphLink",
+    "name": "Bgt Link Convert Bot",
     "description": "Powerful Telegram bot to generate Telegraph links for your media files. This bot can works also in group chats.",
-    "repository": "https://github.com/Bikashhalde109/link2",
+    "repository": "https://github.com/Bikashhalde109/link",
     "keywords": [
         "telegraph",
         "telegraph link",
@@ -14,39 +14,25 @@
     ],
     "env": {
         "API_ID": {
-            "description": "Get from my.telegram.org/apps",
-            "value": "",
-            "required": true
+            "description": "Get from my.telegram.org/apps"
         },
         "API_HASH": {
-            "description": "Get from my.telegram.org/apps",
-            "value": "",
-            "required": true
-        },
-        "SUPPORT_CHAT": {
-            "description": "Input Your Group Username",
-            "value": "BGT_CHAT",
-            "required": true
-        },
-        "UPDATES_CHNL": {
-            "description": "Input Your Channel Username",
-            "value": "BikashGadgetsTech",
-            "required": true
-        },
-        "OWER_USERNAME": {
-            "description": "Input Your Username",
-            "value": "BikashHalder",
-            "required": true
-        },
-        "BOT_USERNAME": {
-            "description": "Input Your Bot Username",
-            "value": "",
-            "required": true
+            "description": "Get from my.telegram.org/apps"
         },
         "BOT_TOKEN": {
-            "description": "Get from Telegram's @BotFather",
-            "value": "BGT_CHAT",
-            "required": true
+            "description": "Get from Telegram's @BotFather"
+        },
+        "BOT_USERNAME": {
+            "description": "Input Bot Username"
+        },
+        "OWNER_USERNAME": {
+            "description": "Input Your Username"
+        },
+        "SUPPORT_CHAT": {
+            "description": "Input Group Username"
+        },
+        "UPDATES_CHNL": {
+            "description": "Input CHANNEL Username"
         },
     },
     "formation": {
