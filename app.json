@@ -23,7 +23,7 @@
             "description": "Input Your Group Username",
             "value": "BGT_CHAT",
         "required": true
-        }
+        },
         "UPDATES_CHNL": {
             "description": "Input Your Channel Username",
             "value": "BikashGadgetsTech",
@@ -38,7 +38,7 @@
             "description": "Input Your Bot Username",
             "value": "",
         "required": true
-        }
+        },
         "BOT_TOKEN": {
             "description": "Get from Telegram's @BotFather"
         }
