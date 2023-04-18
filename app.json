@@ -1,7 +1,7 @@
 {
     "name": "MediaToTelegraphLink",
     "description": "Powerful Telegram bot to generate Telegraph links for your media files. This bot can works also in group chats.",
-    "repository": "https://github.com/Bikashhalde109/link2",
+    "repository": "https://github.com/Bikashhalde109/link",
     "keywords": [
         "telegraph",
         "telegraph link",
@@ -19,9 +19,29 @@
         "API_HASH": {
             "description": "Get from my.telegram.org/apps"
         },
-        "BOT_TOKEN": {
-            "description": "Get from Telegram's @BotFather"
+        "SUPPORT_CHAT": {
+            "description": "Input Your Group Username",
+            "value": "BGT_CHAT",
+        "required": true
         }
+        "UPDATES_CHNL": {
+            "description": "Input Your Channel Username",
+            "value": "BikashGadgetsTech",
+        "required": true
+        },
+        "OWER_USERNAME": {
+            "description": "Input Your Username",
+            "value": "BikashHalder",
+        "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Input Your Bot Username",
+            "value": "",
+        "required": true
+        }
+        "BOT_TOKEN": {
+            "description": "Get from Telegram's @BotFather*
+        },
     },
     "formation": {
     "worker": {
