@@ -11,10 +11,10 @@ bgt=Client(
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"],
     bot_token = os.environ["BOT_TOKEN"]
-    support_chat = os.environ["SUPPORT_CHAT", "Bgt_Chat"]
-    updates_chnl = os.environ["UPDATES_CHNL", "BikashGadgetsTech"]
-    owner_username = os.environ["OWNER_USERNAME", "BikashHalder"]
-    bot_username = os.environ["BOT_USERNAME", "BgtConvertBot"]
+    support_chat = os.environ["SUPPORT_CHAT"]
+    updates_chnl = os.environ["UPDATES_CHNL"]
+    owner_username = os.environ["OWNER_USERNAME"]
+    bot_username = os.environ["BOT_USERNAME"]
 )
 
 @bgt.on_message(filters.command('start') & filters.private)
