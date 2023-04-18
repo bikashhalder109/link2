@@ -14,10 +14,14 @@
     ],
     "env": {
         "API_ID": {
-            "description": "Get from my.telegram.org/apps"
+            "description": "Get from my.telegram.org/apps",
+            "value": "",
+        "required": true
         },
         "API_HASH": {
-            "description": "Get from my.telegram.org/apps"
+            "description": "Get from my.telegram.org/apps",
+            "value": "",
+        "required": true
         },
         "SUPPORT_CHAT": {
             "description": "Input Your Group Username",
@@ -40,7 +44,9 @@
         "required": true
         },
         "BOT_TOKEN": {
-            "description": "Get from Telegram's @BotFather*
+            "description": "Get from Telegram's @BotFather,
+            "value": "BGT_CHAT",
+        "required": true
         },
     },
     "formation": {
