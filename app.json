@@ -16,37 +16,37 @@
         "API_ID": {
             "description": "Get from my.telegram.org/apps",
             "value": "",
-        "required": true
+            "required": true
         },
         "API_HASH": {
             "description": "Get from my.telegram.org/apps",
             "value": "",
-        "required": true
+            "required": true
         },
         "SUPPORT_CHAT": {
             "description": "Input Your Group Username",
             "value": "BGT_CHAT",
-        "required": true
+            "required": true
         },
         "UPDATES_CHNL": {
             "description": "Input Your Channel Username",
             "value": "BikashGadgetsTech",
-        "required": true
+            "required": true
         },
         "OWER_USERNAME": {
             "description": "Input Your Username",
             "value": "BikashHalder",
-        "required": true
+            "required": true
         },
         "BOT_USERNAME": {
             "description": "Input Your Bot Username",
             "value": "",
-        "required": true
+            "required": true
         },
         "BOT_TOKEN": {
             "description": "Get from Telegram's @BotFather",
             "value": "BGT_CHAT",
-        "required": true
+            "required": true
         },
     },
     "formation": {
