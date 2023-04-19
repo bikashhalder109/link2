@@ -1,4 +1,4 @@
-
+# Powered By @BikashHalder
 
 from pyrogram import Client, filters
 from telegraph import upload_file
@@ -22,7 +22,7 @@ BOT_USERNAME = os.environ["BOT_USERNAME"]
 async def start(client: client, message: message):
    await message.reply_photo(
         photo=f"https://te.legra.ph/file/f73af9a4ffe130a83d8d2.jpg",
-       caption=f"""
+        caption=f"""
 ━━━━━━━━━━━━━━━━━━━━━━━━
 💥 𝐇𝐞𝐲 {message.from_user.mention},
 
@@ -68,8 +68,6 @@ Media File In This Chat .
             ]
         ),
      )  
-    await bgt.send_message(message.chat.id, text, disable_web_page_preview=True)
-    
 
 @bgt.on_message(filters.media & filters.private)
 async def get_link_private(client, message):
